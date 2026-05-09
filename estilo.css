@@ -92,7 +92,7 @@ header.perfil-hero h1 {
   background: #fff;
   border-radius: 12px;
   overflow: hidden;
-  border: 1px solid #d1d5db;
+  border: 1px solid #d2d1db;
   box-shadow: 0 2px 8px rgba(0,0,0,.1);
 }
 
@@ -151,7 +151,7 @@ html {
 }
 .perfil-hero__nav a:hover {
   background: #fff;
-  box-shadow: 0 2px 8px rgba(4, 120, 87, 0.12);
+  box-shadow: 0 2px 8px rgba(4, 16, 120, 0.12);
 }
 
 .perfil-rodape__extras {
