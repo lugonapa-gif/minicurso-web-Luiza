@@ -157,9 +157,9 @@ html {
 .perfil-rodape__extras {
   margin: 1.25rem 0 0.75rem;
   padding: 0.85rem 1rem;
-  background: #ecfdf5;
+  background: #f0ecfd;
   border-radius: 10px;
-  border: 1px solid #a7f3d0;
+  border: 1px solid #afa7f3;
   font-size: 0.95rem;
   color: #374151;
 }
@@ -176,10 +176,10 @@ html {
   height: 3rem;
   border: none; 
   border-radius: 50%;
-  background: #047857; 
+  background: #190478; 
   color: #fff;
   cursor: pointer;
-  box-shadow: 0 4px 14px rgba(4, 120, 87, 0.45);
+  box-shadow: 0 4px 14px rgba(21, 4, 120, 0.45);
   z-index: 60;
   display: flex; 
   align-items: center;
@@ -188,11 +188,11 @@ html {
 }
 
 .btn-voltar-topo:hover {
-  background: #065f46;
+  background: #16065f;
   transform: scale(1.05);
 }
 
 .btn-voltar-topo:focus-visible {
-  outline: 3px solid #10b981;
+  outline: 3px solid #4310b9;
   outline-offset: 3px;
 }
