@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=divice-width, instial-scale=1.0">    
+    <link rel="stylesheet" href="estilo.css">
+    <script src="perfil.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="perfil-hero" id="topo">
+        <h1>Luiza Paiva</h1>
+        <nav class="perfil-hero__nav" aria-label="Ir para seção">
+            <a href="#sobre">Sobre</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    <main class="perfil-main">
+        <section class="cartao">
+            <h2>Sobre Mim</h2>
+            <p>Sou estudante de Web.</p>
+            <img class="perfil-foto" src="letral.png" alt="Minha foto" width="200" height="200">
+            <section class="cartao" id="sobre"> … </section>
+            <section class="cartao" id="habilidades"> … </section>
+        </section>
+
+        <section class="cartao">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+            </ul>
+            
+        </section>
+
+    </main>
+
+    <footer class="perfil-rodape" id="contato">
+        <h2>Contatos</h2>
+        <table>
+            <caption>Onde me encontrar</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Rede</th>
+                    <th scope="col">Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>GitHub</td>
+                    <td>
+                        <a href="https://github.com/seuusuario">GitHub</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="perfil-rodape__extras" id="msg-visita" role="status"></p>
+        <p class="perfil-rodape__copy">
+            © <span id="rodape-ano"></span> Luiza Paiva. Todos os direitos reservados        
+        </p>
+    </footer>
+    <button type="button" id="btn-voltar-topo" class="btn-voltar-topo escondendo " aria-label="Voltar ao topo">↑</button>
+    
+</body>    
+</html>
